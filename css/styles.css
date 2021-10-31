@@ -18,6 +18,10 @@ body {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* хедер */
 
 /* logo */
@@ -124,4 +128,33 @@ body {
 .address-link:focus,
 .address-link:hover {
   color: var(--hover-color);
+}
+
+/* portfolio */
+.portfolio-button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--secondary-text-color);
+  background: #f5f4fa;
+}
+
+.portfolio-button:focus,
+.portfolio-button:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.project-name {
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.87;
 }
