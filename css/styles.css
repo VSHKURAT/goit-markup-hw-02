@@ -122,13 +122,27 @@ a {
 .footer {
   background-color: #2f303a;
 }
+
 .address-link {
+  font-style: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   color: #ffffff;
 }
 .address-link:focus,
 .address-link:hover {
+  color: var(--hover-color);
+}
+
+.address-nav {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-nav:focus,
+.address-nav:hover {
   color: var(--hover-color);
 }
 
