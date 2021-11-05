@@ -22,6 +22,17 @@ a {
   text-decoration: none;
 }
 
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 /* хедер */
 
 /* logo */
@@ -77,6 +88,7 @@ a {
 }
 
 .button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -89,6 +101,7 @@ a {
 }
 
 .section-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -156,7 +169,7 @@ a {
 
 /* portfolio */
 .portfolio-button {
-  font-family: Roboto;
+  font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
