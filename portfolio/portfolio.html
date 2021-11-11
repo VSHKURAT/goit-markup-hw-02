@@ -17,9 +17,9 @@
     
         
     
-        <div class="container">
+        <div class="container flexbox">
             <a href="../index.html" lang="en" class="logo"><span class="logo-first-part">Web</span>Studio</a>
-            <nav>
+            <nav class="navigation">
                 <ul class="site-nav list">
                     <li><a class="site-nav-link" href="../index.html">Студия</a></li>
                     <li><a class="site-nav-link current" href="./portfolio.html">Портфолио</a></li>
@@ -29,8 +29,8 @@
             
             
             <ul class="auth-nav list">
-                <li><a class="auth-nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="auth-nav-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="item"><a class="auth-nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="item"><a class="auth-nav-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -40,68 +40,86 @@
        <div class="container">
             <h1 class="visuallyhidden">Портфолио</h1>
             
-            <ul class="portfolio-list list">
-                <li><button class="portfolio-button" type="button">Все</button></li>
-                <li><button class="portfolio-button" type="button">Веб-сайты</button></li>
-                <li><button class="portfolio-button" type="button">Приложения</button></li>
-                <li><button class="portfolio-button" type="button">Дизайн</button></li>
-                <li><button class="portfolio-button" type="button">Маркетинг</button></li>
+            <ul class="portfolio-list list flexbox">
+                <li class="button-item"><button class="portfolio-button" type="button">Все</button></li>
+                <li class="button-item"><button class="portfolio-button" type="button">Веб-сайты</button></li>
+                <li class="button-item"><button class="portfolio-button" type="button">Приложения</button></li>
+                <li class="button-item"><button class="portfolio-button" type="button">Дизайн</button></li>
+                <li class="button-item"><button class="portfolio-button" type="button">Маркетинг</button></li>
             
             </ul>
             
-            <ul class=" list">
-                <li>
+            <ul class="gallery list flexbox">
+                <li class="gallery-item">
                     <img width="370" src="./portfolio-images/project1.jpg" alt="На екране ноутбука команда Технокряк">
+                    <div class="border-item"> 
                     <h2 class="project-name">Технокряк</h2>
-                    <p class="project-description">Веб-сайт</p>
+                    <p class="project-description">Веб-сайт</p> 
+                    </div>
                 </li>
             
-                <li>
+                <li class="gallery-item">
                     <img width="370" src="./portfolio-images/project2.jpg" alt="Баскетбольная верховая дуэль в">
+                    <div class="border-item"> 
                     <h2 class="project-name">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                    <p class="project-description">Дизайн</p>
+                    <p class="project-description">Дизайн</p> 
+                    </div>
                 </li>
             
-                <li>
+                <li class="gallery-item">
                     <img width="370" src="./portfolio-images/project3.jpg" alt="Логотип ресторана Seafood">
+                    <div class="border-item"> 
                     <h2 class="project-name">Ресторан <span lang="en">Seafood</span></h2>
-                    <p class="project-description">Приложение</p>
+                    <p class="project-description">Приложение</p> 
+                    </div>
                 </li>
             
-                <li>
+                <li class="gallery-item">
                     <img width="370" src="./portfolio-images/project4.jpg" alt="Наушники">
+                    <div class="border-item"> 
                     <h2 class="project-name">Проект <span lang="en">Prime</span></h2>
-                    <p class="project-description">Маркетинг</p>
+                    <p class="project-description">Маркетинг</p> 
+                    </div>
                 </li>
             
-                <li>
+                <li class="gallery-item">
                     <img width="370" src="./portfolio-images/project5.jpg" alt="Две коробки">
+                    <div class="border-item"> 
                     <h2 class="project-name">Проект <span lang="en">Boxes</span></h2>
-                    <p class="project-description">Приложение</p>
+                    <p class="project-description">Приложение</p> 
+                    </div>
                 </li>
             
-                <li>
+                <li class="gallery-item">
                     <img width="370" src="./portfolio-images/project6.jpg" alt="На мониторе стартовая страница сайта">
+                    <div class="border-item"> 
                     <h2 class="project-name" lang="en">Inspiration has no Borders</h2>
-                    <p class="project-description">Веб-сайт</p>
+                    <p class="project-description">Веб-сайт</p> 
+                    </div>
                 </li>
             
-                <li>
+                <li class="gallery-item">
                     <img width="370" src="./portfolio-images/project7.jpg" alt="Фото одноименного журнала">
+                    <div class="border-item"> 
                     <h2 class="project-name">Издание <span lang="en">Limited Edition</span></h2>
-                    <p class="project-description">Дизайн</p>
+                    <p class="project-description">Дизайн</p> 
+                    </div>
                 </li>
             
-                <li>
+                <li class="gallery-item">
                     <img width="370" src="./portfolio-images/project8.jpg" alt="Бирка с аббревиатурой LAB">
+                    <div class="border-item"> 
                     <h2 class="project-name">Проект LAB</h2>
-                    <p class="project-description">Маркетинг</p>
+                    <p class="project-description">Маркетинг</p> 
+                    </div>
                 </li>
             
-                <li>
+                <li class="gallery-item">
                     <img width="370" src="./portfolio-images/project9.jpg" alt="На монитое приложение Growing Business">
-                    <h2 class="project-name" lang="en">Growing Business</h2>
-                    <p class="project-description">Приложение</p>
+                   <div class="border-item">
+                        <h2  class="project-name" lang="en">Growing Business</h2>
+                    <p class="project-description">Приложение</p> 
+                </div>
                 </li>
             
             
@@ -117,7 +135,7 @@
             <a href="../index.html" lang="en" class="logo"><span class="logo-first-part">Web</span><span
                     class="logo-second-part">Studio</span></a>
             <address class="footer-address">
-                <ul class="auth-nav list">
+                <ul class="list">
                     <li><a class="address-link" href="https://goo.gl/maps/8gZ2Wu5cqemFH6tR6" target="_blank"
                             rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
                     <li><a class="address-nav" href="mailto:info@devstudio.com">info@devstudio.com</a></li>

@@ -18,10 +18,10 @@
 <body>
     <!--шапка-->
     <header class="header" >
-      <div class="container">   
+      <div class="container flexbox">   
         <a href="./index.html" lang="en" class="logo"><span class="logo-first-part">Web</span>Studio</a>
     
-        <nav >
+        <nav class="navigation">
             <ul class="site-nav list">
                 <li><a class="site-nav-link current" href="./index.html">Студия</a></li>
                 <li><a class="site-nav-link" href="./portfolio/portfolio.html">Портфолио</a></li>
@@ -31,8 +31,8 @@
     
        
             <ul class="auth-nav list">
-                <li><a class="auth-nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="auth-nav-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="item"><a class="auth-nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="item"><a class="auth-nav-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
     </div>
     
@@ -52,20 +52,20 @@
 <section class="feature-section section">
     <div class="container">
     <h2 class="section-title visuallyhidden">Особенности</h2>
-    <ul class="list">
-        <li>
+    <ul class="list flexbox">
+        <li class="feature-item">
             <h3 class="feature-title">Внимание к деталям</h3>
             <p class="feature-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
-        <li>
+        <li class="feature-item">
             <h3 class="feature-title">Пунктуальность</h3>
             <p class="feature-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
-        <li>
+        <li class="feature-item">
             <h3 class="feature-title">Планирование</h3>
             <p class="feature-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
-        <li>
+        <li class="feature-item">
             <h3 class="feature-title">Современные технологии</h3>
             <p class="feature-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
@@ -77,10 +77,10 @@
 <section class="section-work section">
     <div class="container">
     <h2 class="section-title">Чем мы занимаемся</h2>
-    <ul class="list">
-        <li><img width="370"  src="./images/img1.jpg" alt="На столе записка алгоритма,клавиатура и планшет"></li>
-        <li><img width="370" src="./images/img2.jpg" alt="Человек использует сматфон и ноутбук"></li>
-        <li><img width="370" src="./images/img3.jpg" alt="Человек использует планшет на котором размещенна палитра цветов"></li>
+    <ul class="list flexbox">
+        <li class="work-item" ><img width="370"  src="./images/img1.jpg" alt="На столе записка алгоритма,клавиатура и планшет"></li>
+        <li class="work-item" ><img width="370" src="./images/img2.jpg" alt="Человек использует сматфон и ноутбук"></li>
+        <li class="work-item" ><img width="370" src="./images/img3.jpg" alt="Человек использует планшет на котором размещенна палитра цветов"></li>
     </ul>
     </div>
 </section>
@@ -88,30 +88,30 @@
 <section class="our-team section">
 <div class="container">
     <h2 class="section-title">Наша команда</h2>
-    <ul class="list">
-        <li>
+    <ul class="list flexbox">
+        <li class="team-item">
             
             <img width="270" src="./images/team1.jpg" alt="Игорь Демьяненко">
             <h3 class="teammates-name">Игорь Демьяненко</h3>
             <p  lang="en" class="teammates-position">Product Designer</p>
         </li>
-        <li>
+        <li class="team-item">
            
             <img width="270" src="./images/team2.jpg" alt="Ольга Репина">
             <h3 class="teammates-name">Ольга Репина</h3>
             <p lang="en" class="teammates-position">Frontend Developer</p>
         </li>
-        <li>
+        <li class="team-item">
            
             <img width="270" src="./images/team3.jpg" alt="Николай Тарасов">
             <h3 class="teammates-name">Николай Тарасов</h3>
             <p lang="en" class="teammates-position"> Marketing</p>
         </li>
-        <li>
+        <li class="team-item">
             
             <img width="270" src="./images/team4.jpg" alt="Михаил Ермаков">
             <h3 class="teammates-name">Михаил Ермаков</h3>
-            <p lang="en" class="teammates-position">UI Designer</p>
+            <p lang="en" class="teammates-position">UI Designer</p> 
         </li>
     </ul>
 </div>
@@ -120,7 +120,7 @@
 <!--футер-->
 <footer class="footer">
 <div class="container footer-container">
-    <a href="./index.html" lang="en"class="logo"><span class="logo-first-part">Web</span><span class="logo-second-part">Studio</span></a>
+    <a href="./index.html" lang="en"class="logo "><span class="logo-first-part">Web</span><span class="logo-second-part">Studio</span></a>
     <address class="footer-address">
         <ul class="list">
             <li ><a class="address-link"  href="https://goo.gl/maps/8gZ2Wu5cqemFH6tR6" target= "_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
