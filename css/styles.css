@@ -40,6 +40,7 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .visuallyhidden {
@@ -149,6 +150,8 @@ img {
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -157,9 +160,11 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #ffffff;
-
-  margin-top: 0;
   margin-bottom: 30px;
+  text-align: center;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button {
@@ -351,8 +356,6 @@ img {
 .gallery-item {
   margin-right: 30px;
   margin-bottom: 30px;
-
-  width: 370px;
 }
 
 .gallery-item:nth-child(3n + 3) {
